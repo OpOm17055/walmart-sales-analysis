@@ -65,13 +65,13 @@ Created a typed `walmart` table and imported the enriched CSV with pgAdmin.
 ## Repository structure
 
 walmart-sales-analysis/
-├── data/
-│   ├── Walmart.csv                               
-│   ├── walmart_clean.csv                                                         
-│   └── walmart_enriched.csv                                                                      
+├── data/                                                                                                                                                      
+│   ├── Walmart.csv
+│   ├── walmart_clean.csv 
+│   └── walmart_enriched.csv 
 ├── notebooks/
-│   ├── Walmart_data_project.ipynb                                                                             
-│   └── walmart_charts.ipynb                                                                          
+│   ├── Walmart_data_project.ipynb
+│   └── walmart_charts.ipynb  
 ├── sql/
 │   └── walmart_analysis.sql
 ├── images/
