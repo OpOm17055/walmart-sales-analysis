@@ -64,26 +64,16 @@ Created a typed `walmart` table and imported the enriched CSV with pgAdmin.
 
 ## Repository structure
 
-```
 walmart-sales-analysis/
 ├── data/
-│   └── Walmart.csv
+│   ├── Walmart.csv             
+│   ├── walmart_clean.csv       
+│   └── walmart_enriched.csv    
 ├── notebooks/
 │   └── walmart_cleaning_and_charts.ipynb
 ├── sql/
 │   └── walmart_analysis.sql
 ├── images/
-│   ├── 1_revenue_vs_rating.png
-│   ├── 2_seasonality.png
-│   ├── 3_orders_by_hour.png
-│   ├── 4_margin_profit.png
-│   └── 5_rating_by_payment.png
+│   └── (5 chart PNGs)
 └── README.md
-```
 
-## How to run
-
-1. Open `notebooks/walmart_cleaning_and_charts.ipynb` in Google Colab, upload `data/Walmart.csv`, and run the cleaning cells to produce `walmart_enriched.csv`.
-2. In PostgreSQL, create a database called `walmart_db`, run the `CREATE TABLE` statement at the top of `sql/walmart_analysis.sql`, and import `walmart_enriched.csv`. Set Header to on and Encoding to UTF8.
-3. Run the queries in `sql/walmart_analysis.sql` one at a time.
-4. Run the chart cells in the notebook to regenerate the images.
