@@ -66,14 +66,18 @@ Created a typed `walmart` table and imported the enriched CSV with pgAdmin.
 
 walmart-sales-analysis/
 ├── data/
-│   ├── Walmart.csv             
-│   ├── walmart_clean.csv       
-│   └── walmart_enriched.csv    
+│   ├── Walmart.csv                               
+│   ├── walmart_clean.csv                                                         
+│   └── walmart_enriched.csv                                                                      
 ├── notebooks/
-│   └── walmart_cleaning_and_charts.ipynb
+│   ├── Walmart_data_project.ipynb                                                                             
+│   └── walmart_charts.ipynb                                                                          
 ├── sql/
 │   └── walmart_analysis.sql
 ├── images/
-│   └── (5 chart PNGs)
+│   ├── 1_revenue_vs_rating.png
+│   ├── 2_seasonality.png
+│   ├── 3_orders_by_hour.png
+│   ├── 4_margin_profit.png
+│   └── 5_rating_by_payment.png
 └── README.md
-
