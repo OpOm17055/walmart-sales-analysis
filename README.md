@@ -62,16 +62,18 @@ Created a typed `walmart` table and imported the enriched CSV with pgAdmin.
 | ![Seasonality](images/2_seasonality.png) | ![Orders by hour](images/3_orders_by_hour.png) |
 | ![Margin vs profit](images/4_margin_profit.png) | ![Rating by payment](images/5_rating_by_payment.png) |
 
+
 ## Repository structure
 
+```
 walmart-sales-analysis/
-├── data/                                                                                                                                                      
+├── data/
 │   ├── Walmart.csv
-│   ├── walmart_clean.csv 
-│   └── walmart_enriched.csv 
+│   ├── walmart_clean.csv
+│   └── walmart_enriched.csv
 ├── notebooks/
 │   ├── Walmart_data_project.ipynb
-│   └── walmart_charts.ipynb  
+│   └── walmart_charts.ipynb
 ├── sql/
 │   └── walmart_analysis.sql
 ├── images/
@@ -81,3 +83,4 @@ walmart-sales-analysis/
 │   ├── 4_margin_profit.png
 │   └── 5_rating_by_payment.png
 └── README.md
+```
